@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import ScrollToNext from "@components/ScrollToNext";
+import SkillIcons from "@components/SkillIcons";
 import "./style.scss";
 
 const AboutPage = (props, context) => {
@@ -51,9 +52,7 @@ const AboutPage = (props, context) => {
                 The Atlanta Javascript Meetup
               </a>
             </p>
-            <p className="text-emoji" style={{ color: colorPrimary }}>
-              \ (•◡•) /
-            </p>
+            <SkillIcons />
           </div>
         </div>
       </div>
