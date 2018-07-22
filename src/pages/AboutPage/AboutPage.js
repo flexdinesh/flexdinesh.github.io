@@ -21,7 +21,7 @@ const AboutPage = (props, context) => {
         `}
       </style>
       <div className="content-grid">
-        <h1 style={{ color: colorPrimary }}>About</h1>
+        <h1 style={{ color: colorPrimary }}>About Me</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
@@ -41,7 +41,15 @@ const AboutPage = (props, context) => {
             <p>
               React, Styled Components, Node.js, Firebase, Vue.js, Apollo
               Client, and GraphQL are some of my favorite technologies to work
-              with.
+              with. I'm also currently co-hosting{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                className="highlight"
+                href="https://www.meetup.com/Atlanta-Vue-js-Meetup/"
+              >
+                The Atlanta Javascript Meetup
+              </a>
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /
