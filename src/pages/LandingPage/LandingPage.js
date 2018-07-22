@@ -1,14 +1,16 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import SocialIcons from '@components/SocialIcons';
-import Nav from '@components/Nav';
-import ScrollToNext from '@components/ScrollToNext';
-import BrowserNotes from '@components/BrowserNotes';
+import React from "react";
+import PropTypes from "prop-types";
+import SocialIcons from "@components/SocialIcons";
+import Nav from "@components/Nav";
+import ScrollToNext from "@components/ScrollToNext";
+import BrowserNotes from "@components/BrowserNotes";
 
-import './style.scss';
+import "./style.scss";
 
 const LandingPage = (props, context) => {
-  const { theme: { bgPrimary, colorPrimary } } = context;
+  const {
+    theme: { bgPrimary, colorPrimary }
+  } = context;
 
   return (
     <div style={{ backgroundColor: bgPrimary }} className="landing-page">
@@ -16,9 +18,9 @@ const LandingPage = (props, context) => {
       <main style={{ color: colorPrimary }}>
         <BrowserNotes />
         <div className="intro-wrapper">
-          <div className="intro-name">Hello, I'm Dinesh!</div>
+          <div className="intro-name">Hello, I'm Peter!</div>
           <div className="tagline">
-            Full Stack Dev | Open-Source Enthusiast | Blogger | Ninja
+            Web Developer | Amateur Conference Speaker | Travel Enthusiast
           </div>
           <SocialIcons />
         </div>

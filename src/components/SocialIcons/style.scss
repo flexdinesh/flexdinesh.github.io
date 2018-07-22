@@ -1,4 +1,4 @@
-@import 'breakpoints';
+@import "breakpoints";
 
 .social-icons {
   padding: 0.25rem 0;
@@ -10,18 +10,6 @@
 
   a {
     padding: 0 0.625rem;
-
-    &.devto svg {
-      margin-bottom: -0.25rem;
-      width: 2.7rem;
-      height: 2.7rem;
-
-      @include breakpoint-small-down {
-        margin-bottom: -0.225rem;
-        width: 2.25rem;
-        height: 2.25rem;
-      }
-    }
   }
 
   &.animate-icons {

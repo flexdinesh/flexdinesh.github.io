@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import ScrollToNext from '@components/ScrollToNext';
-import './style.scss';
+import React from "react";
+import PropTypes from "prop-types";
+import ScrollToNext from "@components/ScrollToNext";
+import "./style.scss";
 
 const AboutPage = (props, context) => {
   const {
@@ -25,27 +25,23 @@ const AboutPage = (props, context) => {
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
             <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
+              I am a positive thinking, self starting software developer who
+              dreams in JavaScript and someday hopes to be happy with my
+              application architechture. I have a passion for "Front-End" web
+              development and single page apps, and love to explore new
+              technologies that push the bleeding edge of what a web browser is
+              capable of. I like <span className="highlight">JavaScript</span>{" "}
+              and everything focused around web development.
             </p>
             <p>
-              When my dev senses kick-in I build presumably{' '}
-              <span className="highlight"> awesome stuff</span>. I stay close to
-              the community and try to keep tabs with the pace at which the web
-              is evolving. I also like to{' '}
-              <span className="highlight">blog</span> what I learn.
+              I also enjoy presenting at conferences, playing{" "}
+              <span className="highlight">ping pong</span>, and traveling around
+              the world experiencing new cultures and making connections.
             </p>
             <p>
-              I built this site <span className="highlight">from scratch</span>.
-              By scratch, I mean <i>absolutely from scratch</i>{' '}
-              <span className="highlight">
-                without any UI library/framework
-              </span>{' '}
-              (except React though) and had so much fun along the way.
-            </p>
-            <p>
-              React-Redux, Node.js, Ruby on Rails, Java, Spring Boot, Docker and
-              AWS are the main tricks up my sleeve. I am also obsessed with making the web look pretty with SASS/CSS.
+              React, Styled Components, Node.js, Firebase, Vue.js, Apollo
+              Client, and GraphQL are some of my favorite technologies to work
+              with.
             </p>
             <p className="text-emoji" style={{ color: colorPrimary }}>
               \ (•◡•) /

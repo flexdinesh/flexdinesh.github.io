@@ -2,7 +2,7 @@
   "name": "react-landing",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://flexdinesh.github.io/",
+  "homepage": "https://firefox0102.github.io/",
   "scripts": {
     "start": "node scripts/start.js",
     "start:prod": "ENV=prod node scripts/start.js",
@@ -10,8 +10,7 @@
     "prebuild": "npm run clean",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "predeploy": "npm run build",
-    "deploy": "aws s3 cp build/ s3://dineshpandiyan.com --recursive"
+    "predeploy": "npm run build"
   },
   "devDependencies": {
     "react": "^16.2.0",

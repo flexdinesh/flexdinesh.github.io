@@ -1,14 +1,25 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './style';
+import "./style";
 
 const Footer = (props, context) => {
-  const { theme: { colorPrimary, textPrimary } } = context;
+  const {
+    theme: { colorPrimary, textPrimary }
+  } = context;
   return (
     <footer>
       <div className="content-grid">
-        <div style={{ color: textPrimary }}>Made by <a href="https://github.com/flexdinesh" target="_blank" rel="noopener noreferrer" style={{ color: colorPrimary }}>Dinesh</a> <span role="img" aria-label="heart">❤️</span></div>
+        <div style={{ color: textPrimary }}>
+          Reach out to me on<a
+            href="https://www.linkedin.com/in/pfinny/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: colorPrimary, marginLeft: "6px" }}
+          >
+            <i className="fab fa-linkedin" />
+          </a>
+        </div>
       </div>
     </footer>
   );
