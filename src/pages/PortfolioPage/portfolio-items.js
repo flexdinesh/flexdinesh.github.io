@@ -19,7 +19,7 @@ export default [
             rel="noopener noreferrer"
             href="https://github.com/firefox0102/firefox0102.github.io"
           >
-            More
+            Code
           </a>
         </div>
       </div>
@@ -109,90 +109,29 @@ export default [
         </div>
       </div>
     )
+  },
+  {
+    name: "dev-landing-page",
+    render: (
+      <div className="portfolio-item">
+        <div className="portfolio-item__title">Waterwatch</div>
+        <div className="portfolio-item__desc">
+          Water Quality Dashboard - Chattahoochie River Keepers
+        </div>
+        <div className="portfolio-item__icon">
+          <i className="fab fa-vuejs" />
+          <i className="fab fa-js" />
+        </div>
+        <div className="portfolio-item__links">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/firefox0102/waterwatch"
+          >
+            Code
+          </a>
+        </div>
+      </div>
+    )
   }
-  // {
-  //   name: "npm-module-boilerplate",
-  //   render: (
-  //     <div className="portfolio-item">
-  //       <div className="portfolio-item__title">NPM Module Boilerplate</div>
-  //       <div className="portfolio-item__desc">
-  //         Boilerplate plate code to create and publish an NPM package
-  //       </div>
-  //       <div className="portfolio-item__icon">
-  //         <i className="fab fa-js" />
-  //         <i className="fab fa-npm" />
-  //       </div>
-  //       <div className="portfolio-item__links">
-  //         <a
-  //           target="_blank"
-  //           rel="noopener noreferrer"
-  //           href="https://dev.to/flexdinesh/publish-your-own-npm-package---5b71"
-  //         >
-  //           Blog
-  //         </a>
-  //         <a
-  //           target="_blank"
-  //           rel="noopener noreferrer"
-  //           href="https://github.com/flexdinesh/npm-module-boilerplate"
-  //         >
-  //           More
-  //         </a>
-  //       </div>
-  //     </div>
-  //   )
-  // },
-  // {
-  //   name: "axios-retry-interceptor",
-  //   render: (
-  //     <div className="portfolio-item">
-  //       <div className="portfolio-item__title">Axios Retry Interceptor</div>
-  //       <div className="portfolio-item__desc">
-  //         Configurable Axios Interceptor to retry failed http calls.
-  //       </div>
-  //       <div className="portfolio-item__icon">
-  //         <i className="fab fa-js" />
-  //       </div>
-  //       <div className="portfolio-item__links">
-  //         <a
-  //           target="_blank"
-  //           rel="noopener noreferrer"
-  //           href="https://github.com/flexdinesh/axios-retry-interceptor"
-  //         >
-  //           More
-  //         </a>
-  //       </div>
-  //     </div>
-  //   )
-  // },
-  // {
-  //   name: "browser-or-node",
-  //   render: (
-  //     <div className="portfolio-item">
-  //       <div className="portfolio-item__title">Browser or Node</div>
-  //       <div className="portfolio-item__desc">
-  //         Javascript library to check the runtime JS env
-  //       </div>
-  //       <div className="portfolio-item__icon">
-  //         <i className="fab fa-js" />
-  //         <i className="fab fa-npm" />
-  //       </div>
-  //       <div className="portfolio-item__links">
-  //         <a
-  //           target="_blank"
-  //           rel="noopener noreferrer"
-  //           href="https://www.npmjs.com/package/browser-or-node"
-  //         >
-  //           NPM
-  //         </a>
-  //         <a
-  //           target="_blank"
-  //           rel="noopener noreferrer"
-  //           href="https://github.com/flexdinesh/browser-or-node"
-  //         >
-  //           More
-  //         </a>
-  //       </div>
-  //     </div>
-  //   )
-  // }
 ];
