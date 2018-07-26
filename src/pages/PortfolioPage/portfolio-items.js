@@ -133,5 +133,28 @@ export default [
         </div>
       </div>
     )
+  },
+  {
+    name: "dev-landing-page",
+    render: (
+      <div className="portfolio-item">
+        <div className="portfolio-item__title">UI Pro Tips: Flexbox</div>
+        <div className="portfolio-item__desc">
+          My first talk from 2016 about Flexbox and approaching a new UI
+        </div>
+        <div className="portfolio-item__icon">
+          <i className="fab fa-css3" />
+        </div>
+        <div className="portfolio-item__links">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://docs.google.com/presentation/d/1dSW1hJ8UVXv2JHMxcRprttx-vMm-3EoA1nk0cK-Ge10/edit?usp=sharing"
+          >
+            Slides
+          </a>
+        </div>
+      </div>
+    )
   }
 ];
