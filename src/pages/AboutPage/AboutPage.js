@@ -24,10 +24,7 @@ const AboutPage = (props, context) => {
         <h1 style={{ color: colorPrimary }}>About</h1>
         <div className="about-wrapper">
           <div className="about-content" style={{ color: textPrimary }}>
-            <p>
-              I like <span className="highlight">JavaScript</span> and
-              everything web.
-            </p>
+            
             <p>
               When my dev senses kick-in I build presumably{' '}
               <span className="highlight"> awesome stuff</span>. I stay close to
