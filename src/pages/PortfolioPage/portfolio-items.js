@@ -2,30 +2,6 @@ import React from "react";
 
 export default [
   {
-    name: "typy",
-    render: (
-      <div className="portfolio-item">
-        <div className="portfolio-item__title">Portfolio Repo</div>
-        <div className="portfolio-item__desc">
-          This websites code repository
-        </div>
-        <div className="portfolio-item__icon">
-          <i className="fab fa-js" />
-          <i className="fab fa-html5" />
-        </div>
-        <div className="portfolio-item__links">
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/firefox0102/firefox0102.github.io"
-          >
-            Code
-          </a>
-        </div>
-      </div>
-    )
-  },
-  {
     name: "dev-landing-page",
     render: (
       <div className="portfolio-item">
@@ -36,6 +12,7 @@ export default [
           Conference talk - Vue Conf 2018
         </div>
         <div className="portfolio-item__icon">
+          <i className="fab fa-vuejs" />
           <i className="fab fa-js" />
         </div>
         <div className="portfolio-item__links">
@@ -152,6 +129,55 @@ export default [
             href="https://docs.google.com/presentation/d/1dSW1hJ8UVXv2JHMxcRprttx-vMm-3EoA1nk0cK-Ge10/edit?usp=sharing"
           >
             Slides
+          </a>
+        </div>
+      </div>
+    )
+  },
+  {
+    name: "blog-posts",
+    render: (
+      <div className="portfolio-item">
+        <div className="portfolio-item__title">Blog Post</div>
+        <div className="portfolio-item__desc">
+          A blog post about the Internal Frontend Meetup at SalesLoft
+        </div>
+        <div className="portfolio-item__icon">
+          <i className="fab fa-js" />
+          <i className="fab fa-html5" />
+          <i className="fab fa-css3" />
+        </div>
+        <div className="portfolio-item__links">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://medium.com/salesloft-engineering/the-internal-meetup-experiment-72a2d62efb93"
+          >
+            Blog Post
+          </a>
+        </div>
+      </div>
+    )
+  },
+  {
+    name: "typy",
+    render: (
+      <div className="portfolio-item">
+        <div className="portfolio-item__title">Portfolio Repo</div>
+        <div className="portfolio-item__desc">
+          This websites code repository
+        </div>
+        <div className="portfolio-item__icon">
+          <i className="fab fa-js" />
+          <i className="fab fa-html5" />
+        </div>
+        <div className="portfolio-item__links">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/firefox0102/firefox0102.github.io"
+          >
+            Code
           </a>
         </div>
       </div>

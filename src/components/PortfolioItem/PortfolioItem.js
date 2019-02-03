@@ -12,11 +12,10 @@ const PortfolioItem = (props, context) => {
         className="portfolio-item"
         style={{ backgroundColor: colorPrimary, color: textAlternate }}
       >
-        <div className="portfolio-item__title">Badass</div>
+        <div className="portfolio-item__title">Title</div>
 
         <div className="portfolio-item__desc">
-          I do badass things and kickass everyday! I do badass things and
-          kickass everyday! I do badass things and kickass everyday!
+          Description
         </div>
         <div className="portfolio-item__icon">
           <i className="fab fa-js" />
